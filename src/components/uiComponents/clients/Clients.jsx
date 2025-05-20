@@ -26,7 +26,7 @@ const Clients = () => {
 
       return () => clearInterval(interval);
     }
-  }, [isMobile, clientsData.length]);
+  });
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? clientsData.length - 1 : prev - 1));
