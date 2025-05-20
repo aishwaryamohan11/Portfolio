@@ -1,0 +1,19 @@
+.container {
+  .nav {
+    display: block;
+  }
+  .mbnav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    .nav {
+      display: none;
+    }
+    .mbnav {
+      display: block;
+    }
+  }
+}

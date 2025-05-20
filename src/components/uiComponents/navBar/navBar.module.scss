@@ -1,0 +1,66 @@
+// @import "../../utils/variables";
+.container {
+  position: relative;
+  z-index: 1000;
+  max-width: 100vw;
+  display: flex;
+  width: 100%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+  .wrapper {
+    backdrop-filter: blur(12px);
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    z-index: 1003;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: bold;
+
+    .left {
+      font-size: 40px;
+      color: orange;
+      flex: 1;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .right {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .list {
+        display: flex;
+        list-style: none;
+        column-gap: 25px;
+        color: white;
+        .menu {
+          font-size: 25px;
+          cursor: pointer;
+        }
+        .menu:hover {
+          border-bottom: 4px solid orange;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: none;
+  }
+}
