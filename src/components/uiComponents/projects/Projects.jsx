@@ -26,7 +26,7 @@ const projectMap = [
   {
     id: 3,
     title: "Make A Note",
-    desc: "My Notes App is a lightweight and user-friendly React Native application that allows you to create, edit, store, and manage your notes with ease.",
+    desc: "Make A Note is a Android App. It is lightweight and user-friendly React Native application that allows you to create, edit, store, and manage your notes with ease.",
     img: noteLogo,
     link: "",
   },
@@ -50,12 +50,12 @@ const projectMap = [
     title: "Portfolio",
     desc: "This website built using React.js. The project features a smooth marquee effect,sidle move animation, form based component enhancing the visual appeal and user engagement.",
     img: portfolioLogo,
-    link: "https://aishwaryaporfolio.netlify.app/",
+    link: "https://portfolioaishwarya11.netlify.app/",
   },
 ];
 const Projects = () => {
   return (
-    <div className={styles.container}  id="projects">
+    <div className={styles.container} id="projects">
       <div className={styles.wrapper}>
         <Menu title={"Projects"} />
         <div className={styles.top}>

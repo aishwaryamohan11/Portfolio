@@ -81,24 +81,24 @@ export const menu = [
   },
   {
     id: 3,
-    menu: "Skills",
-    link: "#skills",
+    menu: "Experience",
+    link: "#experience",
   },
-  {
-    id: 4,
-    menu: "Process",
-    link: "#process",
-  },
+  // {
+  //   id: 4,
+  //   menu: "Process",
+  //   link: "#process",
+  // },
   {
     id: 5,
     menu: "Projects",
     link: "#projects",
   },
-  {
-    id: 6,
-    menu: "Clients",
-    link: "#clients",
-  },
+  // {
+  //   id: 6,
+  //   menu: "Clients",
+  //   link: "#clients",
+  // },
   {
     id: 7,
     menu: "Contact Us",

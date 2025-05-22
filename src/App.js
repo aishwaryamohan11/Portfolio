@@ -3,6 +3,7 @@ import AboutUs from "./components/uiComponents/aboutUs/AboutUs";
 import Clients from "./components/uiComponents/clients/Clients";
 import ContactUs from "./components/uiComponents/contactUs/ContactUs";
 import CustomNavBar from "./components/uiComponents/customNavBar/CustomNavBar";
+import Experience from "./components/uiComponents/experience/Experience";
 import Footer from "./components/uiComponents/footer/Footer";
 import HeroSection from "./components/uiComponents/heroSection/HeroSection";
 import Process from "./components/uiComponents/process/Process";
@@ -25,6 +26,7 @@ function App() {
       <CustomNavBar />
       <HeroSection />
       <AboutUs />
+      <Experience />
       <Skills />
       <Process />
       <Projects />

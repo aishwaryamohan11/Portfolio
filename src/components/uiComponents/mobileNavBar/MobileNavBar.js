@@ -5,23 +5,23 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const navData = [
   { id: 1, title: "Home", link: "/" },
-  { id: 2, title: "About", link: "#aboutUs" },
+  { id: 2, title: "About Us", link: "#aboutUs" },
   {
     id: 3,
-    title: "Skills",
-    link: "#skills",
+    title: "Experience",
+    link: "#experience",
   },
-  {
-    id: 4,
-    title: "Process",
-    link: "#process",
-  },
+  // {
+  //   id: 4,
+  //   title: "Process",
+  //   link: "#process",
+  // },
   { id: 5, title: "projects", link: "#projects" },
-  {
-    id: 6,
-    title: "Clients",
-    link: "#clients",
-  },
+  // {
+  //   id: 6,
+  //   title: "Clients",
+  //   link: "#clients",
+  // },
   { id: 7, title: "Contact Us", link: "#contactus" },
 ];
 

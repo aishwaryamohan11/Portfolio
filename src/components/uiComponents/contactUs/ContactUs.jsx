@@ -77,7 +77,7 @@ const ContactUs = () => {
   };
   return (
     <div className={styles.show} id="contactus">
-      <div style={{ padding: "2%" }}>
+      <div style={{ padding: "2%",marginBottom:"50px" }}>
         <Menu title={"Contact Us"} />
       </div>
       <div id="contactus" className={styles.container}>

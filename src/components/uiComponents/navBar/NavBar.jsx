@@ -23,29 +23,29 @@ const NavBar = ({ onclick }) => {
               </a>
             </li>
             <li className={styles.menu}>
-              <a className={styles.link} href="#skills">
-                Skills
+              <a className={styles.link} href="#experience">
+                Experience
               </a>
             </li>
-            <li className={styles.menu}>
+            {/* <li className={styles.menu}>
               <a className={styles.link} href="#process">
                 Process
               </a>
-            </li>
+            </li> */}
             <li className={styles.menu}>
               <a className={styles.link} href="#projects">
                 Projects
               </a>
             </li>
-            <li className={styles.menu}>
+            {/* <li className={styles.menu}>
               <a href="#clients" className={styles.link}>
                 Clients
               </a>
-            </li>
+            </li> */}
 
             <li className={styles.menu}>
               <a href="#contactus" className={styles.link}>
-                Contacts
+                Contact Us
               </a>
             </li>
           </ul>

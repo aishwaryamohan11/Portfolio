@@ -12,7 +12,9 @@
     font-weight: bold;
     .top {
       display: flex;
-      column-gap: 30px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
       .icon {
         color: white;
         border: 2px solid orange;
@@ -34,7 +36,9 @@
     }
     .bottom {
       display: flex;
-      column-gap: 40px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
     }
   }
 }
@@ -45,8 +49,10 @@
 }
 @media only screen and (max-width: 600px) {
   .container {
+    padding: 8% 2%;
+
     .wrapper {
-      row-gap: 50px;
+      row-gap: 40px;
       .bottom {
         display: flex;
         flex-wrap: wrap;

@@ -1,6 +1,5 @@
 .container {
   padding: 5% 2%;
-  // background-color: #fff;
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -50,7 +49,6 @@
 
           &:hover {
             background-color: orange;
-
           }
         }
       }
@@ -62,7 +60,7 @@
         // max-width: 1200px;
         width: 80%;
 
-        height: 350px;
+        height: 380px;
         display: flex;
         flex-direction: column;
         row-gap: 0px;
@@ -112,6 +110,7 @@
 
 @media (max-width: 600px) {
   .container {
+      padding: 15% 2%;
     .wrapper {
       .top {
         .title {
@@ -132,7 +131,8 @@
         }
         .bottomContainer {
           padding: 2%;
-          height: 400px;
+          height: 450px;
+
           width: 100%;
           justify-content: space-between;
           .bottomTop {

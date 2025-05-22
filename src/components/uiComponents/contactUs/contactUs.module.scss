@@ -1,11 +1,10 @@
-// @import "../../utils/variables";
 
 .container {
   height: 100%;
   display: flex;
   justify-content: center;
   padding: 1% 2%;
-  background-image: url(../../../assets/process.jpg);
+  background-image: url(../../../assets/contact-us.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   .wrapper {
@@ -60,8 +59,8 @@
 @media only screen and (max-width: 600px) {
   .container {
     padding: 8% 2%;
-    .wrapper{
-      .top{
+    .wrapper {
+      .top {
         font-size: 30px;
       }
     }
